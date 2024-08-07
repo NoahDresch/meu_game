@@ -1,0 +1,212 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+    position: fixed; 
+    top: 0; 
+    background-color: #0B0C0E; 
+    width: 100%; 
+    height: 80px;
+}
+
+.meu {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.game {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00D5FF;
+    margin-right: 65%;
+}
+
+.link {
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.imgbanner {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.produtos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 40px;
+    padding-bottom: 70px;
+    background-color: #F2F3F4;
+}
+
+.tituloproduto {
+    padding-bottom: 70px;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.imgprodutos {
+    width: 500px;
+}
+
+.nomeprodutos {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.sobre {
+    background-color: #0B0C0E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.textosobre {
+    width: 700px;
+}
+
+.imgsobre {
+    width: 500px;
+}
+
+.imagemsobre {
+    width: 500px;
+}
+
+.titulosobre {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00D5FF;
+}
+
+.junteazul {
+    color: #00D5FF;
+    font-weight: bold;
+}
+
+.orcamento {
+    background-color: #F2F3F4;
+    padding-bottom: 50px;
+}
+
+.tituloorcamento {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 70px;
+    padding-bottom: 50px;
+}
+
+.form {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.formtext {
+    width: 1300px;
+    height: 30px;
+}
+
+.anexoback {
+    width: 1300px;
+    height: 30px;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+.formtextarea {
+    width: 1300px;
+}
+
+.botao {
+    background-color: #00D5FF;
+    color: #FFFFFF;
+    width: 1300px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.contato {
+    background-color: #0B0C0E;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.contatos {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00D5FF;
+}
+
+.gamebold {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #00D5FF;
+    color: #0B0C0E;
+    padding: 50px;
+    text-align: center;
+}
